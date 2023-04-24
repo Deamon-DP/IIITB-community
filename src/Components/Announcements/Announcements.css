@@ -1,0 +1,38 @@
+.ann_general{
+    display: flex;
+    /* background-color: #fee2f8;
+    background-image: linear-gradient(315deg, #fee2f8 0%, #dcf8ef 74%); */
+    background-color: #f9fcff;
+    background-image: linear-gradient(147deg, #f9fcff 0%, #dee4ea 74%);
+
+
+
+    /* background-image: url('../../Images/oleg-laptev-7jQh3EiS8Bs-unsplash.jpg'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ann_general__right{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.ann_general__right_ext{
+    padding-bottom:55px;
+    min-height: 90vh;
+}
+.tabpanel{
+    width: 100% !important;
+    display: flex;
+    flex: 1 0 auto;
+}

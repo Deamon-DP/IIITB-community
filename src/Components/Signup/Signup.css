@@ -1,0 +1,49 @@
+.signupDivMain{
+    margin-top: 65px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 18px;
+}
+.signupDiv{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+.paper{
+    border-radius: 20px;
+}
+.Navbar__logo{
+    color:red;
+}
+.signupPic{
+    width: 85%;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .signupPicDiv{
+    width: 55%;
+} */
+@media screen and (max-width: 800px){
+    .box{
+        box-shadow: none !important;
+        flex-direction: column;
+    }
+    .signupPic{
+        width: 100%;
+    }
+    .signupPicDiv{
+        margin: 10px;
+        order: 1;
+    }
+    .signupDiv{
+        order: 2;
+    }
+}
